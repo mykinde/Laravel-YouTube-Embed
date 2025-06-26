@@ -1,0 +1,56 @@
+/* In public/css/app.css or within your <style> tags */
+body {
+    font-family: 'Inter', sans-serif; /* A more modern font choice */
+    background-color: #f0f2f5; /* A slightly darker off-white/light gray */
+    color: #333; /* Default text color */
+}
+
+
+/* Navbar Styling */
+.navbar {
+    background-color: #ffffff; /* White background */
+    border-bottom: 1px solid #e0e0e0; /* Subtle bottom border */
+    padding: 10px 0; /* More vertical padding */
+}
+
+.navbar-brand {
+    font-weight: 700; /* Bolder brand name */
+    font-size: 1.5rem;
+    color: #dc3545 !important; /* A YouTube-like red for the brand */
+}
+
+.navbar-nav .nav-link {
+    color: #555 !important; /* Darker link color */
+    font-weight: 500;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #dc3545 !important; /* Red on hover */
+}
+
+.navbar-toggler {
+    border-color: rgba(0,0,0,0.1);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+/* Main content padding adjustment */
+main {
+    padding-top: 30px; /* Increased padding */
+    padding-bottom: 50px; /* More space at the bottom */
+}
+
+/* Auth container refinement */
+.auth-container {
+    max-width: 450px; /* Slightly wider */
+    margin: 60px auto;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 10px; /* Slightly more rounded corners */
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08); /* More pronounced, softer shadow */
+}
